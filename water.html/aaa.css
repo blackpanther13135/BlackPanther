@@ -1,0 +1,91 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f7ff;
+  color: #00334d;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00557f;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.header-content h1 {
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  font-size: 1.1em;
+}
+
+/* Navigation */
+nav {
+  background-color: #00334d;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.nav-list a:hover,
+.nav-list a.active {
+  background-color: #0077b6;
+}
+
+/* Main content */
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.threats-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00557f;
+}
+
+.threat-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+
+.threat-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #cce0ff;
+}
+
+/* Footer */
+footer {
+  background-color: #00334d;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
